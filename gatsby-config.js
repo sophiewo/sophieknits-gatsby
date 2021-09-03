@@ -5,14 +5,14 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `SophieKnits`,
-    siteTitleAlt: `Emilia - @lekoarts/gatsby-theme-emilia-core`,
-    siteHeadline: `Emilia - Gatsby Theme from @lekoarts`,
+    siteTitle: `SophieKnits_`,
+    siteTitleAlt: `SophieKnits_ `,
+    siteHeadline: `Handmade in London`,
     siteUrl: `https://emilia.lekoarts.de`,
-    siteDescription: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI. Includes Light/Dark mode.`,
+    siteDescription: `Handmade knitwear, knitwear design tools and patterns.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`
+    author: `@sophieknits_`
   },
   plugins: [
     {
