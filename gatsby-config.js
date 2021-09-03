@@ -13,9 +13,6 @@ module.exports = {
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@sophieknits_`,
-    location: `Handmade in London`,
-    name: `SophieKnits_`,
-    showThemeAuthor: false	
   },
   plugins: [
     {
@@ -24,7 +21,14 @@ module.exports = {
       options: {
         name: `SophieKnits_`,
         location: `Handmade in London`,
-        showThemeAuthor: false
+        showThemeAuthor: false,
+        socialMedia: [
+          [
+            { title: `Twitter`, href: `https://twitter.com/sophiegw` },
+            { title: `Instagram`, href: `https://www.instagram.com/sophieknits_` },
+            { title: `Github`, href: `https://github.com/sophiewo`}
+        ]
+      ]
       },
     },
     googleAnalyticsTrackingId && {
