@@ -8,17 +8,24 @@ module.exports = {
     siteTitle: `SophieKnits_`,
     siteTitleAlt: `SophieKnits_ `,
     siteHeadline: `Handmade in London`,
-    siteUrl: `https://emilia.lekoarts.de`,
+    siteUrl: `https://sophieknits.com`,
     siteDescription: `Handmade knitwear, design tools and patterns.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@sophieknits_`
+    author: `@sophieknits_`,
+    location: `Handmade in London`,
+    name: `SophieKnits_`,
+    showThemeAuthor: false	
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `SophieKnits_`,
+        location: `Handmade in London`,
+        showThemeAuthor: false
+      },
     },
     googleAnalyticsTrackingId && {
       resolve: `gatsby-plugin-google-analytics`,
