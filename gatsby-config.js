@@ -9,7 +9,7 @@ module.exports = {
     siteTitleAlt: `SophieKnits_ `,
     siteHeadline: `Handmade in London`,
     siteUrl: `https://emilia.lekoarts.de`,
-    siteDescription: `Handmade knitwear, knitwear design tools and patterns.`,
+    siteDescription: `Handmade knitwear, design tools and patterns.`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `@sophieknits_`
