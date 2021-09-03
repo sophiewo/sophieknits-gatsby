@@ -5,16 +5,31 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitle: `SophieKnits_`,
+    siteTitleAlt: `SophieKnits_ `,
+    siteHeadline: `Handmade in London`,
+    siteUrl: `https://sophieknits.com`,
+    siteDescription: `Handmade knitwear, design tools and patterns.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@sophieknits_`,
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       // See the theme's README for all available options
-      options: {},
+      options: {
+        name: `SophieKnits_`,
+        location: `Handmade in London`,
+        showThemeAuthor: false,
+        socialMedia: [
+          [
+            { title: `Twitter`, href: `https://twitter.com/sophiegw` },
+            { title: `Instagram`, href: `https://www.instagram.com/sophieknits_` },
+            { title: `Github`, href: `https://github.com/sophiewo`}
+        ]
+      ]
+      },
     },
     googleAnalyticsTrackingId && {
       resolve: `gatsby-plugin-google-analytics`,
