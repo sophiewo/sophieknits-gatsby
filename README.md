@@ -25,7 +25,7 @@ Calculate the decrease needed across a specified series of rows to acheive a tap
 
 ## Progress so far:
 
-- **Basic webpage layout, social links, some photos:** thanks to [**LekoArts.de**](https://img.lekoarts.de/gatsby/gatsby-site-illustration.png)for the Starter template. I built a very basic react front end from scratch last year but with lots of freelance work I never had the time to make it look as good as the knitwear I make 😋 so I decided I want to just crack on and have something I like the look off. I will be shadowing his wonderful theme and adding my contentful as the CMS and the tools which are react components which will be migrated from the previous wesbite. You can view them at this [repo](https://github.com/sophiewo/sophieknits/blob/main/src) until I migrate them over!
+- **Basic webpage layout, social links, some photos:** thanks to [**LekoArts.de**](https://twitter.com/lekoarts_de)for the Starter template. I built a very basic react front end from scratch last year but with lots of freelance work I never had the time to make it look as good as the knitwear I make 😋 so I decided I want to just crack on and have something I like the look off. I will be shadowing his wonderful theme and adding my contentful as the CMS and the tools which are react components which will be migrated from the previous wesbite. You can view them at this [repo](https://github.com/sophiewo/sophieknits/blob/main/src) until I migrate them over!
     
 ## Tech
 
